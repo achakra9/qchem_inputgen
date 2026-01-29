@@ -1,6 +1,6 @@
 [project]
 name = "qchem-inputgen"
-version = "0.1.1"
+version = "0.1.4"
 description = "Generate Q-Chem input files from XYZ geometries (defaults geared toward MRSF)."
 readme = "README.md"
 requires-python = ">=3.10"
