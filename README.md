@@ -1,9 +1,9 @@
-# qchem-inputgen
+# qchem_inputgen
 Lightweight Python tool to generate Q-Chem input files from XYZ geometries, with defaults tailored for MRSF calculations and a clean CLI interface.
 
-## qchem-inputgen
+## qchem_inputgen
 
-qchem-inputgen is a lightweight, object-oriented Python tool for generating
+qchem_inputgen is a lightweight, object-oriented Python tool for generating
 Q-Chem input files directly from XYZ geometry files.
 
 The tool is designed to streamline the preparation of electronic-structure
@@ -70,12 +70,12 @@ energy calculations.
 ## Repository Structure
 
 ```text
-qchem-inputgen/
+qchem_inputgen/
 ├── README.md
 ├── LICENSE
 ├── pyproject.toml
 ├── scripts/
-│   └── qchem-inputgen
+│   └── qchem_inputgen
 ├── src/
 │   └── qchem_inputgen/
 │       ├── __init__.py
@@ -102,7 +102,7 @@ qchem-inputgen/
 `__main__.py`  
   Enables execution via `python -m qchem_inputgen`.
 
-`scripts/qchem-inputgen`  
+`scripts/qchem_inputgen`  
   Standalone executable launcher for users who do not wish to install the
   package.
 
@@ -113,8 +113,8 @@ No installation is required for basic usage.
 
 Simply clone the repository:
 
-  `git clone git@github.com:achakra9/qchem-inputgen.git`  
-  `cd qchem-inputgen`
+  `git clone git@github.com:achakra9/qchem_inputgen.git`  
+  `cd qchem_inputgen`
 
 Python 3.10 or newer is recommended.
 
@@ -128,13 +128,13 @@ Option 1: Run as a Python module (recommended)
 
 Option 2: Run the standalone script
 
-  `./scripts/qchem-inputgen molecule.xyz -o inputs/`
+  `./scripts/qchem_inputgen molecule.xyz -o inputs/`
 
 
 Option 3: Optional editable install (for convenience only)
 
   `pip install -e .`  
-  `qchem-inputgen molecule.xyz -o inputs/`
+  `qchem_inputgen molecule.xyz -o inputs/`
 
 
 ## Examples

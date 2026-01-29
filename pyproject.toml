@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qchem-inputgen"
+name = "qchem_inputgen"
 version = "0.1.0"
 description = "Generate Q-Chem input files from XYZ geometries (defaults geared toward MRSF)."
 readme = "README.md"
@@ -13,4 +13,4 @@ authors = [{ name = "Arnab Chakraborty" }]
 dependencies = []
 
 [project.scripts]
-qchem-inputgen = "qchem_inputgen.cli:main"
+qchem_inputgen = "qchem_inputgen.cli:main"
