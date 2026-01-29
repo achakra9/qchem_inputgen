@@ -61,8 +61,7 @@ class QChemInputWriter:
                 "\n".join(
                     [
                         "$comment",
-                        f"  1 {auto_title}",
-                        "  2",
+                        f" {auto_title}",
                         "$end",
                         "",
                     ]
