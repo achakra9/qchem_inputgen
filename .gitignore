@@ -1,0 +1,101 @@
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# Conda
+.conda/
+conda-env/
+*.conda
+
+# =========================================================
+# Packaging / build artifacts
+# =========================================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editable install artifacts
+pip-wheel-metadata/
+
+# =========================================================
+# Pytest / testing
+# =========================================================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================================================
+# IDEs / editors
+# =========================================================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# =========================================================
+# Jupyter
+# =========================================================
+
+.ipynb_checkpoints/
+
+# =========================================================
+# Q-Chem / scientific workflow outputs
+# =========================================================
+
+# Q-Chem scratch / output files
+*.out
+*.log
+*.scratch
+*.tmp
+*.chk
+*.fchk
+*.h5
+
+# Molden / orbital files
+*.molden
+*.molden.gz
+*.mo
+
+# Generated input files
+*.in
+
+# =========================================================
+# Project-specific
+# =========================================================
+
+# Local run directories
+inputs/
+outputs/
+scratch/
+
+# Temporary XYZ files
+*.xyz~
+
+# =========================================================
+# OS-specific
+# =========================================================
+
+Thumbs.db
+
