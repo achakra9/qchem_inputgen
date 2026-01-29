@@ -1,16 +1,23 @@
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "qchem_inputgen"
+name = "qchem-inputgen"
 version = "0.1.0"
 description = "Generate Q-Chem input files from XYZ geometries (defaults geared toward MRSF)."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Arnab Chakraborty" }]
+authors = [{ name = "Arnab Chakraborty", email = "arnabc20@usc.edu" }]
+keywords = ["quantum-chemistry", "q-chem", "chemistry", "input-generator"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/achakra9/qchem_inputgen"
+Repository = "https://github.com/achakra9/qchem_inputgen"
+Issues = "https://github.com/achakra9/qchem_inputgen/issues"
+
 [project.scripts]
-qchem_inputgen = "qchem_inputgen.cli:main"
+qchem-inputgen = "qchem_inputgen.cli:main"
