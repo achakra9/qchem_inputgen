@@ -70,7 +70,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--triplets", action="store_true", default=False)
     p.add_argument("--cis-convergence", type=int, default=8)
     p.add_argument("--max-cis-cycles", type=int, default=100)
-    # p.add_argument("--no-sts-mom", action="store_true")
+    p.add_argument("--no-sts-mom", action="store_true")
     p.add_argument("--no-comment", action="store_true")
 
     return p

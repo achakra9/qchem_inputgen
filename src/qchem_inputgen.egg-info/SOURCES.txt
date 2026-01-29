@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/qchem_inputgen/__init__.py
+src/qchem_inputgen/__main__.py
+src/qchem_inputgen/cli.py
+src/qchem_inputgen/qchem.py
+src/qchem_inputgen/xyz.py
+src/qchem_inputgen.egg-info/PKG-INFO
+src/qchem_inputgen.egg-info/SOURCES.txt
+src/qchem_inputgen.egg-info/dependency_links.txt
+src/qchem_inputgen.egg-info/entry_points.txt
+src/qchem_inputgen.egg-info/top_level.txt
+tests/test_cli_smoke.py
+tests/test_qchem_render.py
+tests/test_xyz.py
