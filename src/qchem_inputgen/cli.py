@@ -96,7 +96,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         cis_triplets=args.triplets,
         cis_convergence=args.cis_convergence,
         max_cis_cycles=args.max_cis_cycles,
-        # sts_mom=not args.no_sts_mom,
+        sts_mom=not args.no_sts_mom,
         include_comment=not args.no_comment,
     )
 
